@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   color: white;
-  height: 100vh;
+  height: auto;
 `;
 
 export const ContainerItems = styled.div`
@@ -59,6 +59,7 @@ export const Button = styled.button`
   margin-top: calc(76px - 42px);
   cursor: pointer;
   height: 68px;
+  margin-bottom: 18px;
 
   :hover {
     opacity: 0.9;
@@ -69,7 +70,7 @@ export const Button = styled.button`
   }
 `;
 
-export const Orders = styled.li`
+export const OrderDetail = styled.li`
   background: rgba(255, 255, 255, 0.25);
   border-radius: 14px;
   border: none;
@@ -81,17 +82,40 @@ export const Orders = styled.li`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+  margin: 2px 0 18px 0;
+  padding: 15px;
+  gap: 20px;
+
   button {
     background: none;
     border: none;
     cursor: pointer;
-    
+    margin-right: 15px;
+    margin-left: 40px;
+
     &:hover {
       opacity: 0.7;
     }
     &:active {
       opacity: 0.5;
     }
+  }
+  .listOrder {
+    margin-left: calc(27px - 15px);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .order-client {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    margin: 10px 0 10px 0;
+  }
+
+  .clientName {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
   }
 `;
