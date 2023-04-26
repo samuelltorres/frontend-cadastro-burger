@@ -6,7 +6,8 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   color: white;
-  height: auto;
+  height: 100%;
+  min-height: 100vh;
 `;
 
 export const ContainerItems = styled.div`
@@ -60,6 +61,8 @@ export const Button = styled.button`
   cursor: pointer;
   height: 68px;
   margin-bottom: 18px;
+  display: flex;
+  align-items: center;
 
   :hover {
     opacity: 0.9;
