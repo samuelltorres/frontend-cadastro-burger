@@ -6,7 +6,7 @@
 <p align="center">
   <a href="#sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a target="_blank" href="samuellcadastroburger.netlify.app">Experimentar</a>
+  <a target="_blank" href="https://samuellcadastroburger.netlify.app/">Experimentar</a>
 </p>
 
 <br>
