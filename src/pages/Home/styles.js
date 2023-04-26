@@ -41,7 +41,7 @@ export const Inputs = styled.input`
   border-radius: 14px;
   border: none;
   outline: none;
-  padding: 19px 139px 18px 15px;
+  padding: 19px 15px 18px 15px;
   margin-bottom: 42px;
   height: 58px;
   color: #ffffff;
